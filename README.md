@@ -24,6 +24,7 @@ STEP 5 =>
 Verifying the updated balance of TokenA and TokenB , Here
 TokenA has 10500 after exchange
 TokenB has 7500 after exchange as exchange rate was 5 hence 5*500 = 2500 deducted.
+Updated Balances can be verified under balanceOf function of both tokens.
 
 ![Screenshot from 2024-09-08 16-04-49](https://github.com/user-attachments/assets/6bd2c949-aeb3-4c1a-83b4-ada993280ca4)
 
