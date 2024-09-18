@@ -25,7 +25,7 @@ contract SimpleDEX {
     }
 
     function exchangeTokenAForTokenB(uint amountA) public  {
-        require(amountA > 0, "Amount must be greater than 0");
+        require(amountA > 0, "Balance Should be grater than 0");
         require(tokenB.balanceOf(address(this)) >= amountA * exchangeRate, "Not enough tokenB to fulfill the exchange");
         unchecked {
             tokenA.transferFrom(msg.sender, address(this), amountA);
